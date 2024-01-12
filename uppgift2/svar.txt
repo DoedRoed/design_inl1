@@ -1,0 +1,14 @@
+1. Make a UML diagram showing the inheritance tree (you don't need to be specific)
+
+Se bild.
+
+
+2. Is it possible in this design for an Engineer to also become a Manager?
+
+    Nej.
+
+
+
+3. Re-design the classes so that there is only one (concrete) class called Employee.
+
+se kod
