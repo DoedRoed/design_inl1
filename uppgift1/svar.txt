@@ -1,0 +1,14 @@
+What happens if the designers of the Storage class decide to change the implementation of the List to LinkedList?
+
+The original main stops working, You need to change Persons in main to LinkedList or better change to List so it can handle LinkedList and ArrayList.
+
+
+
+Think about the method calls in main - does trimToSize() exist in LinkedList?
+
+LinkedList does not have a trimToSize method(since it does not need it).
+
+
+Should Main know about what concrete type of List Storage provides?
+
+No, maybe? Since it only prints out the names it does not need to know.
