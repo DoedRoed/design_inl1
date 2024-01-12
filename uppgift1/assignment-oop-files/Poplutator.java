@@ -10,7 +10,7 @@ public class Poplutator {
             throw new Exception("ERROR");
         }
 
-        LinkedList<Person> list = new LinkedList();
+        LinkedList<Person> list = new LinkedList<Person>();
 
         for (int i = 0; i <= listLength; i++) {
             String name = sweAlphabetRandomNameGen();
